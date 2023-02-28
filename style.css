@@ -1,0 +1,387 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  header {
+    background-color: rgb(98, 168, 222);
+    display: flex;
+    position: fixed;
+    top:0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    color: aliceblue;
+    font-size: 25px;
+  }
+  
+  .logo {
+    display: inline-block;
+    padding: 15px;
+    background-color: rgb(54, 111, 137);
+  }
+  .fa-solid {
+    padding-right: 15px;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    padding: 15px;
+  }
+
+  li:hover {
+    background-color: rgb(112, 124, 134)
+  }
+
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; 
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 90px;
+    top: 80%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid black;
+    padding: 3px 0;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  
+  .logo:hover {
+    background-color: rgb(112, 124, 134);
+    color: black;
+  }
+  
+  /* main content */
+  
+  .container {
+    display: grid;
+    grid-template-columns: 0.7fr 1.5fr 0.5fr;
+    margin: 60px 50px;
+    gap: 20px;
+  }
+  
+  .box-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  
+  /* style section 1 , article 1 */
+  .art {
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 0 20px -10px;
+      border-radius: 5px;
+    }
+  
+  .wrapp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-picture {
+    border-radius: 50%;
+    width: 150px;
+    margin: 30px 0;
+  }
+  
+  .align {
+    display: flex;
+  }
+  
+  .font-awesome {
+    color: rgba(74, 88, 100, 0.515);
+    margin: 20px 20px;
+  }
+  
+  .info {
+    margin: 20px 10px;
+    font-size: 20px;
+  }
+  
+  
+  /* style section 1 article 2 */
+  
+  .btn-3 {
+      width: 100%;
+      margin: 0;
+      text-align: left;
+      font-size: 20px;
+      padding: 7px 15px;
+  }
+  .text {
+      margin: 20px 30px;
+      font-size: 20px;
+  }
+  
+  .pictures {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 30px;
+  }
+  .my-photos {
+      width: 140px;
+  }
+  
+  /* style section 1 article 3 */
+  .interests {
+    margin: 20px 20px;
+    font-size: 20px ;
+  }
+  .more-buttons {
+   display: flex;
+   gap: 4px;
+   margin: 5px 20px;
+  }
+  .btn-4 {
+    margin:0;
+    padding: 1px 5px;
+    font-size: 13px;
+  }
+   .dark-blue {
+    background-color: rgba(10, 44, 102, 0.808);
+   }
+  
+   .grey {
+    background-color: rgb(110, 166, 216);
+   }
+  
+   .white {
+    background-color: rgb(185, 201, 214);
+   }
+  
+  
+  /* style section 1 article 4 */
+
+  .art-0 {
+    border: 1px solid rgb(177, 169, 169);
+    background-color: rgb(204, 209, 211);
+  }
+  .hey {
+    margin: 15px 20px;
+    font-size: 17px;
+  }
+   .squarex{
+    position: relative;
+    background-color: rgb(172, 166, 166);
+    padding: 10px;
+    margin-left: 190px ;
+  } 
+  
+  .ppl {
+    font-size: 18px;
+    margin:30px 20px;
+  }
+  /* column 2 */
+  
+  /* article 1 */
+  
+  #name {
+    width: 90%;
+    height: 45px;
+    margin: 30px;
+    border: 2px solid rgb(163, 156, 156);
+  }
+  
+  button {
+    background-color: rgba(0, 132, 255, 0.841);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    border: none;
+    margin: 0 30px 10px;
+  }
+  
+  button:hover {
+    background-color: rgb(207, 212, 216);
+    color: black;
+    cursor: grab;
+  }
+  
+  .fa-sharp {
+    padding: 2px 7px;
+  }
+  
+  /* column 2  article 2 */
+  
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .round-img {
+    width: 12%;
+    border-radius: 50px;
+    margin: 15px 0 30px 30px;
+  }
+  
+  h2 {
+    margin: 30px 0 0 20px;
+    font-size: 23px;
+    font-weight: lighter;
+  }
+  
+  .time{
+    display: inline-block;
+   color: rgb(109, 110, 117);
+   margin-left: 440px;
+  }
+  p {
+    text-align: left;
+    margin-left: 30px;
+    font-size: 20px;
+  }
+  .img {
+    width: 340px;
+    margin: 0 0 20px 30px;
+  }
+  .wrapper-2 {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .btn-1 {
+    padding: 20px;
+  }
+  
+  .btn-2 {
+    margin-left: auto;
+    padding: 20px;
+  }
+  
+  /* article 4 */
+  
+  .development {
+    width: 94%;
+    align-self: center;
+    margin: 0 0 20px 30px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+
+  /* section 3 article 1 */
+
+  .react-photo {
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .text-section3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .course {
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+
+  .info-btn {
+    align-self: center;
+    background-color: rgb(167, 173, 178);
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 150px;
+  }
+  
+  .info-btn:hover {
+    background-color: rgb(199, 180, 156);
+  }
+
+  /*  section 3 article 2 */
+
+  .Shiba-dog {
+    width: 160px;
+    margin: 0px auto;
+  }
+  .btn-5 {
+    display: flex;
+    justify-content: center;  
+  }
+  
+  .btn-6 {
+    background-color: rgb(193, 75, 39);
+    padding: 10px;
+    width: 65px;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .btn-7 {
+    background-color: rgb(59, 174, 82);
+    padding: 10px;
+    width: 65px;
+    margin-left: 0; 
+    margin-bottom: 15px;
+  }
+
+  /* section 3 article 3 */
+
+  .ADS {
+    padding: 25px;
+  }
+
+  .ladybug {
+    padding: 40px;
+  }
+
+  /* style the footer */
+  
+  .footer1 {
+    background-color: rgba(0, 132, 255, 0.841);
+    padding:20px;
+    font-size: 30px;
+    color:aliceblue;
+    font-weight: light;
+  }
+  
+  .footer2 {
+  background-color: rgba(10, 44, 102, 0.808);
+  font-size: 20px;
+  color:aliceblue;
+  padding: 15px;
+  }
+
+  @media only screen and (max-width : 800px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .pictures {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .my-photos {
+        width: 300px;
+    }
+}
